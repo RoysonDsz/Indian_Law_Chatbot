@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# RAG vector stores
+chroma_db/
+faiss_index/
+*.faiss
+*.npy
+
+# Uploaded data
+data/
+uploads/
+
+# Logs
+*.log
+logs/
+
+# MacOS junk
+.DS_Store
+
+# Node (if frontend exists)
+node_modules/
+dist/
+build/
